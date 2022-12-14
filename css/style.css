@@ -27,6 +27,8 @@ body {
 .header {
     height: 100vh;
     background: #333333;
+    display: flex;
+    flex-direction: column;
 }
 
 .navbar {
@@ -52,7 +54,26 @@ body {
     align-items: center;
     column-gap: 15px;
 }
-.navbar__link{
+
+.navbar__link {
     font-size: 25px;
+    color: #ffff;
+}
+
+.header__intro {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-intro__title {
+    font-size: 65px;
+    color: #ffff;
+}
+
+.header-intro__text {
+    font-size: 45px;
     color: #ffff;
 }
